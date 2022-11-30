@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">TimeMaster</string>
+    <string name="route_metrics">overview</string>
+    <string name="label_clock">Clock</string>
+    <string name="label_list">List</string>
+    <string name="label_metrics">Metrics</string>
+    <string name="task_saved_toast">Task \"%s\" saved!</string>
+    <string name="task_text_field_label">Apa yang ingin anda lakukan ?</string>
+    <string name="task_text_field_placeholder">Sekarang, saya ingin ....</string>
+    <string name="battery_warning_dialog_title">Update battery usage settings</string>
+    <string name="battery_warning_dialog_body">The count down alarm may not work properly with your device\'s current battery settings.\n\nPlease allow TimeClock to run in the background to ensure the count down alarm works as intended.</string>
+    <string name="battery_warning_dialog_action">Request Permission</string>
+    <string name="start">Mulai</string>
+    <string name="stop">Berhenti</string>
+    <string name="timer_divider">:</string>
+    <string name="list_page_nothing_here">Sepertinya kosong, mulai beraktivitas untuk memulai daftar riwayat!</string>
+    <string name="list_page_in_progress">sedang dalam proses</string>
+    <string name="start_time">Waktu Mulai</string>
+    <string name="end_time">Waktu Selesai</string>
+    <string name="button_delete">Hapus</string>
+    <string name="analysis_page_all_time">Timeline</string>
+    <string name="analysis_page_today">Today</string>
+    <string name="analysis_page_last_week">Last week</string>
+    <string name="analysis_page_last_month">Last month</string>
+    <string name="hours">hours</string>
+    <string name="percentage">%.2f%%</string>
+    <string name="analysis_page_nothing_here">No items</string>
+
+    <string name="clock_channel_id" translatable="false">clock_channel</string>
+    <string name="clock_channel_name">Clock Page Controls</string>
+    <string name="alarm_channel_id" translatable="false">alarm_channel</string>
+    <string name="alarm_channel_name">Countdown Alarm</string>
+
+    <string name="route_clock">Time</string>
+    <string name="route_list">list</string>
+    <string name="button_cancel">batal</string>
+
+</resources>

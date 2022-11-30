@@ -1,0 +1,24 @@
+package com.unsyiah.timemaster.data
+
+import androidx.room.ColumnInfo
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "time_clock_event_table")
+data class TimeMasterEvent(
+
+    @ColumnInfo(name = "task_name")
+    val name: String,
+
+    @ColumnInfo(name = "start_time_millis")
+    val startTime: Long = System.currentTimeMillis(),
+
+    @ColumnInfo(name = "end_time_millis")
+    var endTime: Long = startTime,
+
+    @PrimaryKey(autoGenerate = true)
+    val id: Long = 0L
+) {
+    val isRunning : Boolean
+        get() = startTime == endTime
+}
